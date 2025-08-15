@@ -1,0 +1,3 @@
+Hi, this is John.
+I live in New Jersey.
+I am passionate about computers.
