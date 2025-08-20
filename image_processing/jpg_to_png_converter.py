@@ -1,3 +1,6 @@
+# execute the file with arguments as follows:
+# python jpg_to_png_converter.py Pokedex/ new/
+
 import sys
 import os
 from PIL import Image
@@ -23,5 +26,5 @@ for filename in os.listdir(image_folder):
         img = Image.open(filepath)
         # filename = filename.split(".")[0]+".png"
         clean_name = os.path.splitext(filename)[0]
-        print(f"{output_folder}{clean_name}.png")
+        # print(f"{output_folder}{clean_name}.png")
         img.save(f"{output_folder}{clean_name}.png", "png")
